@@ -2,7 +2,12 @@
 // TODO: Write a function 'printStudentName' that logs the student's name
 
 function printStudentName() {
-  // Your code here
+  student = {name: "Ava",age: 21}
+  console.log("Student name is:", student.name);
 }
+
+
+
+
 
 module.exports = { printStudentName };

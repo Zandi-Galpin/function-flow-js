@@ -9,8 +9,13 @@ const steps = [
   "Step 5: Checkout"
 ];
 
-function animateSteps() {
-  // Your code here
+function animateSteps(input) {
+  console.clear();
+  console.log(input);
+  
 }
 
+for (step of steps){
+  setTimeout(animateSteps, 1000)
+}
 module.exports = { animateSteps };
